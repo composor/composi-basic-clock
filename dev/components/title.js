@@ -2,6 +2,7 @@ import {h, Component} from 'composi'
 
 export const title = new Component({
   container: 'header',
+  state: 'Clock',
   render: (message) => {
     return (
       <nav>
